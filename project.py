@@ -3,12 +3,10 @@ import sys
 import numpy as np
 import copy
 
-# Game Constants
-WIDTH, HEIGHT = 800, 800
+WIDTH, HEIGHT = 640, 640
 ROWS, COLS = 8, 8
 SQUARE_SIZE = WIDTH // COLS
 
-# Colors
 BOARD_LIGHT = (240, 217, 181)
 BOARD_DARK = (181, 136, 99)
 HIGHLIGHT_COLOR = (255, 215, 0)
@@ -24,7 +22,6 @@ BLACK = (0, 0, 0)
 GRAY = (128, 128, 128)
 
 
-# Fonts
 pygame.font.init()
 LABEL_FONT = pygame.font.SysFont("arial", 18, bold=True)
 KING_FONT = pygame.font.SysFont("arial", 20, bold=True)
